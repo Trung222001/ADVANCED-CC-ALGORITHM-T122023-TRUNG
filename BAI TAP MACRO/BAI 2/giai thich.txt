@@ -1,0 +1,4 @@
+Giải thích được tại sao phải sử dụng  #ifndef, #define, và #endif
+=> Để ngăn chặn các xung đột trong quá trình biên dịch vì trong một dự án có rất nhiều người làm chung với nhau.
+trong quá trình compiler ở phần tiền xử lý trình biên dịch thực tế sẽ thay thế dòng #include bằng nội dung của 
+file header đó. Nếu một file header được #include nhiều lần trong cùng một file nguồn thì chương trình sẽ bị lỗi.
